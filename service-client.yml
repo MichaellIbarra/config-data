@@ -7,7 +7,7 @@ spring:
     name: service-client
   data:
     mongodb:
-      uri: mongodb://localhost:27017/BankClientDB
+      uri: mongodb://mongodb:27017/BankClientDB
       auto-index-creation: true
 eureka:
   client:
