@@ -15,7 +15,7 @@ spring:
     name: service-mobile-wallet
   data:
     mongodb:
-      uri: mongodb://localhost:27017/MobileWalletDB
+      uri: mongodb://mongodb:27017/MobileWalletDB
       auto-index-creation: true
 eureka:
   client:
