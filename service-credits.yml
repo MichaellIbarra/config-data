@@ -15,7 +15,7 @@ spring:
     name: service-credits
   data:
     mongodb:
-      uri: mongodb://localhost:27017/BankCreditsDB
+      uri: mongodb://mongodb:27017/BankCreditsDB
       auto-index-creation: true
 eureka:
   client:
