@@ -6,7 +6,7 @@ local:
   property:
     host:
       ms-client: ms-client
-      ms-credits: ms-credits
+      ms-credits: ms-credit
       ms-movement: ms-movement
       ms-loan: ms-loan
       ms-debit-card: ms-debit-card
