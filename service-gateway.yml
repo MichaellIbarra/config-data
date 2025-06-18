@@ -22,7 +22,7 @@ spring:
           uri: http://ms-movement:8083/
           predicates:
             - Path=/api/movements/**
-        - id: ms-credits
+        - id: ms-credit
           uri: http://ms-credits:8084/
           predicates:
             - Path=/api/credits/**
