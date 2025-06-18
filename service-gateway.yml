@@ -30,3 +30,7 @@ spring:
           uri: http://ms-bank-account:8085/
           predicates:
             - Path=/api/bankaccounts/**
+        - id: debit-card
+          uri: http://localhost:8086/
+          predicates:
+            - Path=/api/debitcard/**
