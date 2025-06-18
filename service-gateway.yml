@@ -23,7 +23,7 @@ spring:
           predicates:
             - Path=/api/movements/**
         - id: ms-credit
-          uri: http://ms-credits:8084/
+          uri: http://ms-credit:8084/
           predicates:
             - Path=/api/credits/**
         - id: ms-bank-account
