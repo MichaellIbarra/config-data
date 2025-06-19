@@ -5,12 +5,12 @@ server:
 local:
   property:
     host:
-      ms-bank-account: localhost
-      ms-client: localhost
-      ms-credits: localhost
-      ms-movement: localhost
-      ms-loan: localhost
-      ms-debit-card: localhost
+      ms-loan: ms-loan
+      ms-bank-account: ms-bank-account
+      ms-client: ms-client
+      ms-credits: ms-credit
+      ms-movement: ms-movement
+      ms-debit-card: ms-debit-card
 spring:
   application:
     name: service-mobile-wallet
